@@ -1,0 +1,234 @@
+@import "compass/css3";
+
+@import "compass/css3";
+@import "compass/reset";
+
+@media (max-width: 765px) {
+  * {
+    font-size: 4vw;
+    margin: 0vw;
+  }
+  img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .center {
+    max-width: 100%;
+    max-height: 100%;
+  }
+}
+
+body {
+  font-size: 16px;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 16px;
+    max-width: 100%;
+  }
+}
+
+.footer {
+  padding: 5px;
+  text-align: center;
+  background-color: #1164b4;
+  color: #fffffe;
+  font-size: 15px;
+  font-family: helvetica;
+}
+
+.footer {
+  a:link {
+    color: greenyellow;
+  }
+  a:visited {
+    color: white;
+  }
+  a:hover {
+    color: yellowgreen;
+  }
+}
+
+.header {
+  padding: 15px;
+  text-align: left;
+  background-color: #1164b4;
+  color: #fffffe;
+  font-size: 25px;
+  font-family: helvetica;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    padding: 15px;
+    text-align: left;
+    background-color: #1164b4;
+    color: #fffffe;
+    font-size: 25px;
+    font-family: helvetica;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .header {
+    padding: 15px;
+    text-align: left;
+    background-color: #1164b4;
+    color: #fffffe;
+    font-size: 25px;
+    font-family: helvetica;
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+}
+
+.logo {
+  max-width: 37.5px;
+  max-height: 37.5px;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: #fffffe;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+body {
+  background-image: url("Images/Background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.center {
+  display: block;
+  margin: 0 auto;
+  max-width: 60%;
+  max-height: 60%;
+}
+
+.image {
+  width: 100%;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .center-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .center-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    height: 40%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  h2 {
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 24px;
+  }
+
+  h3 {
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 20px;
+  }
+
+  p {
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  h2 {
+    padding-left: 210px;
+    padding-right: 400px;
+  }
+
+  h3 {
+    padding-left: 225px;
+    padding-right: 400px;
+  }
+
+  p {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  p {
+    padding-left: 240px;
+    padding-right: 400px;
+  }
+}
+
+.home {
+  margin: 31px;
+}
+
+@media screen and (min-width: 769px) {
+  .info {
+    padding-top: 0%;
+    padding-bottom: 0%;
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .info {
+    padding-top: 0%;
+    padding-bottom: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+}
